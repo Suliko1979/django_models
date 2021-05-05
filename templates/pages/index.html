@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+    <h3>Главная страница</h3>
+    <h2> Posts </h2>
+    <ul>
+        {% for post in posts %}
+            <li> {{post.title}}, {{post.created_at}} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

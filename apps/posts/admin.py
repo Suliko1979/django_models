@@ -6,6 +6,7 @@ from .models import post, comment
 @admin.register(post)
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'created_at')
+    search_fields = ('title', 'created_at')
 
 
 @admin.register(comment)
