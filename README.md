@@ -1,1 +1,1 @@
-# django_models
+# djahttps://github.com/Suliko1979/django_models.gitngo_models
